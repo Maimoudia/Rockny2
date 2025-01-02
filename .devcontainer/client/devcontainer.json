@@ -1,5 +1,5 @@
 {
-    "name": "fratellino - client",
+    "name": " rockny2 - client",
     "service" : "client",
     "dockerComposeFile": "../../docker-compose.dev.yaml",
     "workspaceFolder": "/app",
