@@ -1,0 +1,33 @@
+{
+    "name": "fratellino - client",
+    "service" : "client",
+    "dockerComposeFile": "../../docker-compose.dev.yaml",
+    "workspaceFolder": "/app",
+    "customizations":  {
+        "vscode":{
+            "extensions":[
+                "christian-kohler.npm-intellisense",
+                "christian-kohler.path-intellisense",
+                "biomejs.biome",
+                "VASubasRaj.flashpost",
+                "dsznajder.es7-react-js-snippets"
+            ],
+            "settings":{
+                "[javascript]": {
+                    "editor.defaultFormatter": "biomejs.biome",
+                    "editor.formatOnSave": true,
+                    "editor.formatOntype": true
+                },
+                "[typescript]": {
+                    "editor.defaultFormatter": "biomejs.biome",
+                    "editor.formatOnSave": true,
+                    "editor.formatOntype": true
+                },
+                "editor.codeActionsOnSave": {
+                "source.fixAll": "always"
+                }
+            }
+        }
+    }
+    
+}
