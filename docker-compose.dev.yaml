@@ -29,7 +29,7 @@ services:
     ports:
       - 5173:5173
     volumes:
-      - ./code/client:/app
+      - ./code/client/rockny2:/app
     tty: true
 
   # mongo
